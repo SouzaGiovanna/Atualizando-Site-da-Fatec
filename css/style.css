@@ -1,0 +1,151 @@
+/*Menu*/
+.menuAcessiblidade{
+    display: flex;
+    justify-content: space-around;
+}
+
+.acessibilidade{
+    text-decoration: none;
+    color: #fff;
+    margin: 5px;
+}
+
+.logos{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.gradient{
+    font-weight: bold;
+    text-align: center;
+    background-image: linear-gradient(#9e9e9e, #fff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+/*Conteúdo*/
+.texts_header{
+    font-family: 'roboto-bold';
+    margin: 7%;
+}
+
+.conteudo{
+    font-family: 'roboto-bold';
+    font-size: 22px;
+    margin-left: 50px;
+    margin-right: 50px;
+    position: relative;
+    z-index: -10;
+}
+
+#logo_fatec{
+    height: 60px;
+}
+
+#logo_cps_sp{
+    height: 60px;
+}
+
+/*DropDown*/
+.nav{
+    width: 100%;
+    background-color: rgba(249, 20, 20, 0.8);
+    color: #fff;
+}
+
+.menu{
+    line-height: 20px;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav .menu .menu_item{
+    display: inline-block;
+    position: relative;
+}
+
+.menu_item:hover{
+    background-color: rgba(252, 2, 2, 0.6);
+}
+
+.nav .menu .menu_item a{
+    padding: 12px 24px;
+    cursor: pointer;
+    text-decoration: none;
+    display: block;
+}
+
+.submenu{
+    text-transform: none;
+    display: none;
+    position: absolute;
+    width: 220px;
+    background-color: rgba(26, 24, 24, 0.8);
+    float: left;
+}
+
+.menu_item:hover .submenu{
+    display:block;
+}
+
+.submenu_item{
+    display: block;
+}
+
+.submenu_item:hover{
+    background-color: rgba(0,0,0,0.6);
+    border-left: 4px solid rgba(252, 2, 2, 0.8);
+}
+
+a{
+    color: #fff;
+}
+
+/*Conteúdo*/
+
+#carrossel_fatec{
+    height: 480px;
+    border-radius: 20px;
+    position: absolute;
+    z-index: -10;
+}
+
+#libras{
+    z-index: 20;
+    margin-top: 2%;
+    margin-left: 99%;
+    position: absolute;
+    fixed: true;
+}
+
+h1{
+    text-transform: uppercase;
+    font-size: 38px;
+}
+
+h2{
+    font-size: 32px;
+}
+
+header{
+    background-image: url(../img/header_fundo.png);
+    background-repeat: no-repeat;
+}
+
+body{
+    font-family: "roboto";
+    margin: 0;
+    padding: 0;
+}
