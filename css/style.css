@@ -55,6 +55,7 @@
     width: 100%;
     background-color: rgba(249, 20, 20, 0.8);
     color: #fff;
+    /*position: fixed;*/
 }
 
 .menu{
@@ -118,7 +119,7 @@ a{
 #carrossel_fatec{
     height: 480px;
     border-radius: 20px;
-    position: absolute;
+    position: relative;
     z-index: -10;
 }
 
@@ -148,4 +149,5 @@ body{
     font-family: "roboto";
     margin: 0;
     padding: 0;
+    height: 4000px;
 }
